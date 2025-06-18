@@ -109,7 +109,7 @@ public class EsUtilServiceImpl implements EsUtilService {
             return response.result().jsonValue();
         } catch (IOException e) {
             log.error("Error while updating document in elasticsearch: {}", e.getMessage(), e);
-            throw new RuntimeException("Errod occured while updating es index");
+            throw new RuntimeException("Error occured while updating es index");
         }
     }
 

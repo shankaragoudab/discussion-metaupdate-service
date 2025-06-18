@@ -20,15 +20,10 @@ public class Constants {
     public static final String SUCCESS = "success";
     public static final String FAILED = "Failed";
     public static final String ERROR_MESSAGE = "errmsg";
-    public static final String INDEX_TYPE = "_doc";
     public static final String REDIS_KEY_PREFIX = "community_";
     public static final String KEYWORD = ".keyword";
     public static final String ASC = "asc";
     public static final String ID = "id";
-    public static final String FETCH_RESULT_CONSTANT = ".fetchResult:";
-    public static final String URI_CONSTANT = "URI: ";
-    public static final String REQUEST_CONSTANT = "Request: ";
-    public static final String RESPONSE_CONSTANT = "Response: ";
     public static final String SEARCH_OPERATION_LESS_THAN = "<";
     public static final String SEARCH_OPERATION_GREATER_THAN = ">";
     public static final String SEARCH_OPERATION_LESS_THAN_EQUALS = "<=";
@@ -59,8 +54,6 @@ public class Constants {
     public static final String INCREMENT = "increment";
     public static final String COUNT_OF_POST_CREATED = "countOfPostCreated";
     public static final String DECREMENT = "decrement";
-    public static final String INDEX_NAME = "community_entity";
-    public static final String CATEGORY_LIST_ALL_REDIS_KEY_PREFIX = "community_category_sub_cat_list";
     public static final String TYPE = "type";
     public static final String ANSWER_POST = "answerPost";
     public static final String POST = "post";
@@ -69,12 +62,12 @@ public class Constants {
     public static final String USER_ID = "userId";
     public static String CommunityId = "communityId";
     public static final String USER_COMMUNITY_LOOK_UP_TABLE = "community_user_lookup";
-    public static final String UPDATED_ON = "updatedOn";
-    public static final String UPDATED_BY = "updatedByUserId";
     public static final String ACTIVE = "active";
     public static final String CMMUNITY_USER_REDIS_PREFIX = "users_communinty_";
     public static final String USER_PREFIX = "user:" ;
     public static final String COUNT_OF_PEOPLE_LIKED = "countOfPeopleLiked";
+    public static final String API_VERSION_1 = "1.0";
+    public static final String USERID = "userid";
 
     private Constants() {
     }
